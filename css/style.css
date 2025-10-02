@@ -302,7 +302,7 @@ header[role="header"] nav ul > li > a {
 header[role="header"] nav ul > li:hover a,
 header[role="header"] nav ul > li.nav-active a {
   text-decoration: none;
-  color: #fb5353;
+  color: #5072c3;
 }
 
 header[role="header"] nav #menu-button {
