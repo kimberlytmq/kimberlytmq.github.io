@@ -935,6 +935,105 @@ main[role="main-inner-wrapper"] .work-content p span {
   font-weight: 800;
 }
 
+/*== Awards ==*/
+
+main[role="main-home-wrapper"] article[role="awards-title-content"] header h2,
+main[role="main-inner-wrapper"] article[role="awards-title-content"] header h2 {
+  font-size: 40px;
+  line-height: 80px;
+  color: #404040;
+  font-weight: 800;
+}
+
+main[role="main-home-wrapper"]
+  article[role="awards-title-content"]
+  header
+  h2
+  span,
+main[role="main-inner-wrapper"]
+  article[role="awards-title-content"]
+  header
+  h2
+  span {
+  padding-top: 50px;
+  display: block;
+  font-size: 70px;
+  color: #5072c3;
+  padding-bottom: 15px;
+}
+
+main[role="main-home-wrapper"] article[role="awards-title-content"] p,
+main[role="main-inner-wrapper"] article[role="awards-title-content"] p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #454545;
+}
+
+main[role="main-inner-wrapper"] .awards-img1 {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main[role="main-inner-wrapper"] .awards-img2 {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main[role="main-inner-wrapper"] .awards-image-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  align-items: center;
+}
+
+main[role="main-inner-wrapper"] .awards-image-grid img:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+main[role="main-inner-wrapper"] .awards-image-grid img:last-child {
+  grid-column: 2;
+  grid-row: 2;
+  transform: translateX(-250px);
+}
+
+main[role="main-inner-wrapper"] .awards-img3 {
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main[role="main-inner-wrapper"] .awards-img4 {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main[role="main-inner-wrapper"] .awards-image-grid2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main[role="main-inner-wrapper"] .awards-image-grid2 img:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+main[role="main-inner-wrapper"] .awards-image-grid2 img:last-child {
+  grid-column: 2;
+  grid-row: 2;
+  transform: translateX(-250px);
+}
+
 /*== Volunteer ==*/
 
 main[role="main-home-wrapper"] article[role="volunteer-title-content"],
