@@ -950,10 +950,8 @@ main[role="main-inner-wrapper"] .projects-headline {
 }
 
 main[role="main-inner-wrapper"] .projects-content {
-  padding-top: 0px;
   padding-left: 70px;
   padding-right: 67px;
-  padding-bottom: 58px;
 }
 
 main[role="main-inner-wrapper"] .projects-boxes {
@@ -964,10 +962,28 @@ main[role="main-inner-wrapper"] .projects-boxes {
 }
 
 main[role="main-inner-wrapper"] .projects-box {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 15px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   align-items: center;
+}
+
+main[role="main-inner-wrapper"] .projects-box:last-child {
+  border-bottom: none;
+}
+
+main[role="main-inner-wrapper"] .projects-box h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #404040;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+main[role="main-inner-wrapper"] .projects-box p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #343434;
 }
 
 .project-thumb {
@@ -986,8 +1002,31 @@ main[role="main-inner-wrapper"] .projects-box {
 }
 
 .project-buttons .btn {
-  margin-right: 8px;
-  margin-bottom: 6px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #5073c3;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0 5px 0 0;
+}
+
+.project-buttons .btn-primary {
+  background: #5072c3;
+  color: white;
+}
+
+.project-buttons .btn-primary:hover {
+  background: #889ed8;
+  outline: #889ed8;
+}
+
+.project-buttons .btn:focus,
+.project-buttons .btn:active {
+  background: #5072c3;
+  color: white;
+  outline: none;
+  box-shadow: none;
 }
 
 @media (min-width: 768px) {
