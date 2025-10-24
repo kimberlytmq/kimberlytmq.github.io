@@ -229,13 +229,13 @@ button:focus,
 }
 
 ::-moz-selection {
-  background-color: #fb5353;
+  background-color: #5072c3;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #fb5353;
+  background-color: #5072c3;
   color: #fff;
   text-shadow: none;
 }
@@ -642,7 +642,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption {
   bottom: -50%;
   left: 0;
   right: 0;
-  background-color: #fb5353;
+  background-color: #5072c3;
   margin: 0 69px;
   text-align: center;
   color: #fff;
@@ -665,7 +665,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5 {
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,
 section.blog-content:hover article {
-  background-color: #fb5353;
+  background-color: #5072c3;
   color: #fff;
 }
 
@@ -709,7 +709,7 @@ section.blog-content figure .post-date {
   line-height: 18px;
   text-transform: uppercase;
   display: block;
-  background-color: #fb5353;
+  background-color: #5072c3;
   width: 200px;
   height: 130px;
   position: absolute;
@@ -752,7 +752,7 @@ article[role="pge-title-content"].contact-header p a {
 }
 
 article[role="pge-title-content"].contact-header p a:hover {
-  color: #fb5353;
+  color: #5072c3;
   text-decoration: none;
 }
 
@@ -1034,7 +1034,7 @@ main[role="main-inner-wrapper"] .projects-box p {
   display: inline-block;
   padding: 10px 20px;
   background: #fff;
-  color: #5073c3;
+  color: #5072c3;
   text-decoration: none;
   border-radius: 20px;
   margin: 0 5px 0 0;
