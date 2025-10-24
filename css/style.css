@@ -482,6 +482,35 @@ footer[role="footer"] .footer-btn:hover {
 }
 
 /*===== About ===*/
+
+.academic-list .academic-row {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  align-items: center;
+}
+
+.academic-list .month {
+  font-weight: 700;
+  font-size: 15px;
+  color: #5072c3;
+}
+
+.academic-list .title {
+  color: #343434;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.academic-list .title span {
+  font-weight: 800;
+}
+
+@media (max-width: 575px) {
+  .academic-list .month {
+    margin-bottom: 6px;
+  }
+}
+
 main[role="main-inner-wrapper"] .about-img {
   max-width: 400px;
   height: auto;
