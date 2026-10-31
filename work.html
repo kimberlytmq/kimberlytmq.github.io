@@ -103,6 +103,34 @@
         padding: 22px;
       }
 
+      .imda-image-text-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .imda-image-text-row .about-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .imda-intro-copy {
+        padding-bottom: 20px !important;
+      }
+
+      .imda-image-text-row + .imda-after-image-text {
+        padding-top: 20px;
+      }
+
+      .imda-image-text-row .imda-image-column,
+      .imda-image-text-row .imda-text-column {
+        float: none;
+      }
+
+      .imda-image-text-row .imda-image-column img {
+        margin: 0 auto;
+      }
+
       @media (max-width: 767px) {
         .experience-dropdown > summary {
           min-height: 96px;
@@ -281,22 +309,29 @@
         >
           <summary>Strategic Digital Projects Intern @ IMDA</summary>
           <div class="experience-dropdown-content">
-            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <article role="pge-title-content">
-                <header>
-                  <h2>Strategic Digital Projects Intern</h2>
-                  <h3><span>IMDA</span></h3>
-                  <h3><span>Jan 2026 - Jun 2026</span></h3>
-                </header>
-              </article>
-            </section>
+            <div class="row imda-image-text-row">
+              <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <article role="pge-title-content">
+                  <header>
+                    <h2>Strategic Digital Projects Intern</h2>
+                    <h3><span>IMDA</span></h3>
+                    <h3><span>Jan 2026 - Jun 2026</span></h3>
+                  </header>
+                </article>
+              </section>
 
-            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <img src="images/work-images/IMDA1.JPG" class="img-responsive" />
-            </section>
+              <section
+                class="col-xs-12 col-sm-6 col-md-6 col-lg-6 imda-image-column"
+              >
+                <img
+                  src="images/work-images/IMDA1.JPG"
+                  class="img-responsive"
+                />
+              </section>
+            </div>
 
             <section
-              class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about-content"
+              class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about-content imda-intro-copy"
             >
               <p>
                 During my internship with the Infocomm Media Development
@@ -339,25 +374,34 @@
               </p>
             </section>
 
-            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <img src="images/work-images/IMDA2.JPG" class="img-responsive" />
-            </section>
+            <div class="row imda-image-text-row">
+              <section
+                class="col-xs-12 col-sm-6 col-md-6 col-lg-6 imda-image-column"
+              >
+                <img
+                  src="images/work-images/IMDA2.JPG"
+                  class="img-responsive"
+                />
+              </section>
 
-            <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 about-content">
-              <p>
-                The internship also gave me the opportunity to attend industry
-                events hosted by organisations such as Google, Amazon, Apple and
-                Snowflake. Through demonstrations, technical clinic sessions and
-                discussions on business use cases, I gained a broader
-                understanding of how different technologies are being integrated
-                into AI solutions and the types of challenges they can help
-                businesses address. I also gained a deeper appreciation of the
-                role that government agencies can play in connecting enterprises
-                with suitable technology partners and supporting the adoption of
-                emerging technologies.
-              </p>
-            </section>
-            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 work">
+              <section
+                class="col-xs-12 col-sm-6 col-md-6 col-lg-6 about-content imda-text-column"
+              >
+                <p>
+                  The internship also gave me the opportunity to attend industry
+                  events hosted by organisations such as Google, Amazon, Apple
+                  and Snowflake. Through demonstrations, technical clinic
+                  sessions and discussions on business use cases, I gained a
+                  broader understanding of how different technologies are being
+                  integrated into AI solutions and the types of challenges they
+                  can help businesses address. I also gained a deeper
+                  appreciation of the role that government agencies can play in
+                  connecting enterprises with suitable technology partners and
+                  supporting the adoption of emerging technologies.
+                </p>
+              </section>
+            </div>
+            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 work imda-after-image-text">
               <p>
                 Overall, my internship at IMDA strengthened my ability to
                 understand business problems, evaluate technology solutions and
